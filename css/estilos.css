@@ -62,5 +62,44 @@
 
 /* Index */
 #encabezado {
-    
+    text-align: center;
+    font-size: 32px;
+}
+
+/* Selección de Pago */
+
+.contenedor-seleccion-pago {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    margin: 3rem;
+}
+
+.metodos-pago {
+    height: 30rem;
+    margin-top: 2rem;
+}
+
+.metodos-pago:hover {
+    cursor: pointer;
+    background-color: #90CAF9;
+    box-shadow: 0px 0px 23px 0px rgba(214,214,214,1);
+    border-radius: 1rem;
+}
+
+.info {
+    font-size: 70px;
+    text-align: center;
+}
+
+.metodos-pago-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #BBDEFB;;
+    font-size: 256px;
+    border: solid 3.5px;
+    border-radius: 1rem;
+    height: 100%;
 }
