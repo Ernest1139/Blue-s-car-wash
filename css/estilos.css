@@ -80,13 +80,6 @@
     margin-top: 2rem;
 }
 
-.metodos-pago:hover {
-    cursor: pointer;
-    background-color: #90CAF9;
-    box-shadow: 0px 0px 23px 0px rgba(214,214,214,1);
-    border-radius: 1rem;
-}
-
 .info {
     font-size: 70px;
     text-align: center;
@@ -102,4 +95,29 @@
     border: solid 3.5px;
     border-radius: 1rem;
     height: 100%;
+}
+
+.metodos-pago:hover {
+    cursor: pointer;
+    background-color: #90CAF9;
+    box-shadow: 0px 0px 23px 0px rgba(214,214,214,1);
+    border-radius: 1rem;
+}
+
+.metodos-pago-info:active {
+    transform: scale(0.98);
+}
+
+.flecha {
+    float: left;
+    margin-left: 3rem;
+}
+
+.flecha:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 23px 0px rgba(214,214,214,1);
+}
+
+.flecha:active {
+    transform: scale(0.9);
 }
