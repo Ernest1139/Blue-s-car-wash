@@ -163,3 +163,12 @@
 .flecha:active {
     transform: scale(0.9);
 }
+
+#contenedor-pagar-tarjeta h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.dinero-a-pagar h2 {
+    margin: 5rem;
+}
