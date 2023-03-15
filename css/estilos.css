@@ -197,6 +197,11 @@
     font-size: 2rem;
 }
 
+#seccion-icono {
+    text-align: center;
+}
+
+
 .info-pago p {
     text-align: right;
     font-size: 1.5rem;
