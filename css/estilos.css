@@ -175,7 +175,14 @@
     margin: 5rem;
 }
 
-#contenedor-pagar-efectivo h2 {
+/* Impresión de recibo */
+#encabezado-impresion h1 {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 3rem;
+}
+
+#seccion-impresion h2 {
     text-align: center;
     font-size: 2rem;
 }
