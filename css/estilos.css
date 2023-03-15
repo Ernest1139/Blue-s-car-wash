@@ -172,3 +172,13 @@
 .dinero-a-pagar h2 {
     margin: 5rem;
 }
+
+#contenedor-pagar-efectivo h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.info-pago p {
+    text-align: right;
+    font-size: 1.5rem;
+}
