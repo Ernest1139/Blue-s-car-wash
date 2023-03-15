@@ -172,3 +172,19 @@
 .dinero-a-pagar h2 {
     margin: 5rem;
 }
+
+/* Impresión de recibo */
+#encabezado-impresion h1 {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 3rem;
+}
+
+#seccion-impresion h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#seccion-icono {
+    text-align: center;
+}
