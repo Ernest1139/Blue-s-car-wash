@@ -119,6 +119,17 @@
 }
 
 /* Selección de Pago */
+#encabezado-seleccionPago {
+    font-size: 32px;
+    display: flex;
+    gap: 26rem;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+#encabezado-seleccionPago a {
+    color: black;
+} 
 
 .contenedor-seleccion-pago {
     display: grid;
@@ -133,8 +144,8 @@
 }
 
 .info {
-    font-size: 70px;
-    text-align: center;
+    font-weight: bold;
+    font-size: 4.5rem;
 }
 
 .metodos-pago-info {
@@ -149,6 +160,18 @@
     height: 100%;
 }
 
+.metodos-pago-info a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.metodos-pago-info ion-icon {
+    margin-top: 2rem;
+}
+
 .metodos-pago:hover {
     cursor: pointer;
     background-color: #90CAF9;
@@ -161,8 +184,7 @@
 }
 
 .flecha {
-    float: left;
-    margin-left: 3rem;
+    font-size: 64px;
 }
 
 .flecha:hover {
