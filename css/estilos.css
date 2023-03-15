@@ -250,3 +250,19 @@
     width: 100%;
     height: 100%;
 }
+
+/* Detalles del paquete */
+#flecha{
+    font-size: 5rem;
+    margin-top: .8rem;
+    color: black;
+}
+
+#flecha:hover {
+    color: rgb(56, 56, 56);
+    cursor: pointer;
+}
+
+#flecha:active{
+    transform: scale(0.98);
+}
