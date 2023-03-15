@@ -208,6 +208,13 @@
 }
 
 /* Impresión de recibo */
+#contenedor-impresion {
+    background-color: #BBDEFB;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
 #encabezado-impresion h1 {
     text-align: center;
     margin-top: 4rem;
@@ -219,9 +226,30 @@
     font-size: 2rem;
 }
 
-.info-pago p {
-    text-align: right;
+
+#contenedor-pagar-efectivo h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.info-pago-efectivo {
+    margin-right: 1rem;
+    display: flex;
+    justify-content: right;
+}
+
+#seccion-icono {
+    text-align: center;
+}
+
+.info-pago-efectivo p {
+    text-align: center;
+    background-color: whitesmoke;
     font-size: 1.5rem;
+    width: 25%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: solid 1px;
 }
 
 .info-pago-tarjeta {
@@ -243,4 +271,20 @@
     margin: 0;
     width: 100%;
     height: 100%;
+}
+
+/* Detalles del paquete */
+#flecha{
+    font-size: 5rem;
+    margin-top: .8rem;
+    color: black;
+}
+
+#flecha:hover {
+    color: rgb(56, 56, 56);
+    cursor: pointer;
+}
+
+#flecha:active{
+    transform: scale(0.98);
 }
