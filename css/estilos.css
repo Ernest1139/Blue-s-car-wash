@@ -261,7 +261,7 @@
 }
 
 .info-pago-tarjeta {
-    margin-left: 1rem;
+    margin-left: 3rem;
 }
 
 .info-pago-tarjeta p {
@@ -297,7 +297,21 @@
     transform: scale(0.98);
 }
 
+<<<<<<< HEAD
 a {
     text-decoration: none;
     color: black;
 }
+=======
+#encabezado-pagoTarjeta {
+    font-size: 32px;
+    display: flex;
+    gap: 15rem;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+#encabezado-pagoTarjeta a{
+    color: black;
+}
+>>>>>>> 0ad36e47586c6916b505daf1d5432df108f97d82
