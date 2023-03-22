@@ -312,3 +312,18 @@ a {
     text-decoration: none;
     color: black;
 }
+
+#detalles-paquete{
+    width: 35%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#detalles-paquete ul li{
+    font-size: 30px;
+}
+
+#titulo-paquete{
+    font-size: 35px;
+    text-align: center;
+}
