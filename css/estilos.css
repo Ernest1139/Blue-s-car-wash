@@ -10,12 +10,12 @@ body {
 #encabezado-index h1 {
     text-align: center;
     margin-top: 4rem;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 #seccion-idiomas h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #contenido-idiomas {
@@ -165,7 +165,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1E88E5;
+    background-color: #42A5F5;
     font-size: 256px;
     border: solid 3.5px;
     border-radius: 1rem;
