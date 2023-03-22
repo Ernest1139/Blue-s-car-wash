@@ -281,6 +281,13 @@
     height: 100%;
 }
 
+#contenedor-fondo {
+    background-color: #BBDEFB;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /* Detalles del paquete */
 #flecha{
     font-size: 5rem;
@@ -297,21 +304,7 @@
     transform: scale(0.98);
 }
 
-<<<<<<< HEAD
 a {
     text-decoration: none;
     color: black;
 }
-=======
-#encabezado-pagoTarjeta {
-    font-size: 32px;
-    display: flex;
-    gap: 15rem;
-    align-items: center;
-    margin-left: 3rem;
-}
-
-#encabezado-pagoTarjeta a{
-    color: black;
-}
->>>>>>> 0ad36e47586c6916b505daf1d5432df108f97d82
