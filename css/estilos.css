@@ -161,7 +161,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #BBDEFB;;
+    background-color: #1E88E5;
     font-size: 256px;
     border: solid 3.5px;
     border-radius: 1rem;
@@ -275,6 +275,13 @@
 }
 
 #contenedor-pagos {
+    background-color: #BBDEFB;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#contenedor-fondo {
     background-color: #BBDEFB;
     margin: 0;
     width: 100%;
