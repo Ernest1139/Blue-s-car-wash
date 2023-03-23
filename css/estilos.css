@@ -21,7 +21,7 @@ html {
     font-size: 4rem;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
     #encabezado-index h1 {
         text-align: center;
         margin-top: 2rem;
@@ -34,7 +34,7 @@ html {
     font-size: 3rem;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
     #seccion-idiomas h2 {
         text-align: center;
         font-size: 2.2rem;
@@ -47,7 +47,7 @@ html {
     justify-content: center;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
     #contenido-idiomas {
         display: flex;
         gap: 4rem;
@@ -94,7 +94,7 @@ html {
     border-radius: 1rem;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
     .paquete-1 {
         background-color: #64B5F6;
         height: 14rem;
@@ -109,7 +109,7 @@ html {
     color: #f8f2f2;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
     .paquete-2 {
         background-color: #1E88E5;
         height: 14rem;
@@ -162,7 +162,7 @@ html {
     gap: 4rem;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
     .paquete-info {
         display: flex;
         justify-content: center;
@@ -178,7 +178,7 @@ html {
     font-size: 4rem;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
     .paquete-info p {
         font-weight: bold;
         font-size: 2.8rem;
@@ -276,7 +276,7 @@ html {
     transform: scale(0.9);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
     #encabezado-seleccionPago {
         font-size: 28px;
         gap: 7.5rem;
@@ -432,7 +432,7 @@ a {
     text-align: center;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
     #titulo-paquete {
         margin-top: -8.5rem;
     }
@@ -540,7 +540,7 @@ a {
     transform: scale(0.98);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
     .pago-vehiculos {
         margin-top: -.6rem;
         height: 14rem;
