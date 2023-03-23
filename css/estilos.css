@@ -314,6 +314,11 @@ html {
 
 /*Páginas de pagos*/
 
+#encabezado-pagoTarjeta {
+    display: flex;
+    gap: 13.2rem;
+}
+
 #contenedor-pagar-tarjeta h2 {
     text-align: center;
     font-size: 2rem;
