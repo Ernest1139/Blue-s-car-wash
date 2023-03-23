@@ -21,9 +21,24 @@ html {
     font-size: 4rem;
 }
 
+@media (max-width: 960px) {
+    #encabezado-index h1 {
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 3.2rem;
+    }
+}
+
 #seccion-idiomas h2 {
     text-align: center;
     font-size: 3rem;
+}
+
+@media (max-width: 960px) {
+    #seccion-idiomas h2 {
+        text-align: center;
+        font-size: 2.2rem;
+    }
 }
 
 #contenido-idiomas {
@@ -32,10 +47,17 @@ html {
     justify-content: center;
 }
 
+@media (max-width: 960px) {
+    #contenido-idiomas {
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+    }
+}
+
 .idiomas {
     text-align: center;
-    margin-top: 1rem;
-    width: 40rem;
+    width: 40%;
 }
 
 .idiomas img {
@@ -61,7 +83,7 @@ html {
 #contenedor-paquetes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 3rem auto 0  auto;
+    margin: 2rem auto 0  auto;
     gap: 2rem;
     padding: 0 4rem;
 }
@@ -72,11 +94,28 @@ html {
     border-radius: 1rem;
 }
 
+@media (max-width: 960px) {
+    .paquete-1 {
+        background-color: #64B5F6;
+        height: 14rem;
+        border-radius: 1rem;
+    }
+}
+
 .paquete-2 {
     background-color: #1E88E5;
     height: 22rem;
     border-radius: 1rem;
     color: #f8f2f2;
+}
+
+@media (max-width: 960px) {
+    .paquete-2 {
+        background-color: #1E88E5;
+        height: 14rem;
+        border-radius: 1rem;
+        color: #f8f2f2;
+    }
 }
 
 .paquete-1:hover {
@@ -100,7 +139,7 @@ html {
 }
 
 #home{
-    font-size: 5rem;
+    font-size: 4.3rem;
     margin-top: .8rem;
     color: black;
 }
@@ -123,13 +162,31 @@ html {
     gap: 4rem;
 }
 
+@media (max-width: 960px) {
+    .paquete-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        gap: 1.5rem;
+    }
+}
+
 .paquete-info p {
     font-weight: bold;
     font-size: 4rem;
 }
 
+@media (max-width: 960px) {
+    .paquete-info p {
+        font-weight: bold;
+        font-size: 2.8rem;
+    }
+}
+
 .paquete-info img {
-    border-radius: .5rem;
+    width: 32%;
 }
 
 /* Index */
