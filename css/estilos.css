@@ -6,6 +6,14 @@ body {
     background-color: #e3f2fd;
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 /* Index */
 #encabezado-index h1 {
     text-align: center;
@@ -352,19 +360,34 @@ a {
     color: black;
 }
 
-#detalles-paquete{
+/* #detalles-paquete{
     width: 35%;
     margin: 0 auto;
     text-align: justify;
-}
+} */
 
-#detalles-paquete ul li{
+/* #detalles-paquete ul li{
     font-size: 30px;
-}
+} */
 
 #titulo-paquete{
     font-size: 35px;
     text-align: center;
+}
+
+@media (max-width: 960px) {
+    #titulo-paquete {
+        margin-top: -8.5rem;
+    }
+
+    #detalles-paquete {
+        margin-left: 5rem;
+        margin-top: -1rem;
+    }
+
+    #detalles-paquete ul li{
+        font-size: 27px;
+    }
 }
 
 /*Pago por vehículos*/
@@ -373,6 +396,7 @@ a {
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
     margin: 3rem;
+    margin-top: 3rem;
 }
 
 .pago-vehiculos {
@@ -404,6 +428,8 @@ a {
 .pago-auto img {
     width: 49%;
 }
+
+
 
 .pago-camioneta {
     display: flex;
@@ -445,4 +471,48 @@ a {
 .info-pago-camioneta {
     font-weight: bold;
     font-size: 2rem;
+}
+
+.pago-camioneta:hover {
+    background-color: #64B5F6;
+    transform: scale(0.98);
+}
+
+.pago-auto:hover {
+    background-color: #90CAF9;
+    transform: scale(0.98);
+}
+
+@media (max-width: 960px) {
+    .pago-vehiculos {
+        margin-top: -.6rem;
+        height: 14rem;
+    }
+
+    .pago-auto img{
+        width: 50%;
+    }
+
+    .pago-auto p {
+        margin-top: -1.2rem;
+    }
+
+    .pago-camioneta a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+    .pago-camioneta a img {
+        margin-top: 1rem;
+    } 
+
+    .pago-camioneta p {
+        margin-top: 0rem;
+    }
+
+    
+
 }
