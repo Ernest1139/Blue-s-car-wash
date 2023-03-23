@@ -306,14 +306,14 @@ html {
     .metodos-pago {
         display: flex;
         flex-direction: column;
-        height: 19rem;
-        margin-top: 3.5rem;
+        max-height: 18rem;
+        margin-top: 0.8rem;
     }
 
     .info {
         font-weight: bold;
         font-size: 2.5rem;
-        margin-top: 0.9rem;
+        margin-top: 0.1rem;
         text-align: center;
     }
 
@@ -460,7 +460,7 @@ a {
     }
 
     #detalles-paquete ul li{
-        font-size: 27px;
+        font-size: 20px;
     }
 }
 
@@ -469,8 +469,7 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
-    margin: 3rem;
-    margin-top: 3rem;
+    margin: 2.5rem 3rem ;
 }
 
 .pago-vehiculos {
@@ -559,12 +558,12 @@ a {
 
 @media (max-width: 992px) {
     .pago-vehiculos {
-        margin-top: -.6rem;
-        height: 14rem;
+        margin-top: -.5rem;
+        max-height: 12rem;
     }
 
     .pago-auto img{
-        width: 50%;
+        width: 35%;
     }
 
     .pago-auto p {
@@ -580,6 +579,7 @@ a {
     }
 
     .pago-camioneta a img {
+        width: 30%;
         margin-top: 1rem;
     } 
 
