@@ -1,5 +1,6 @@
 
 const FechaHoy = new Date();
+FechaHoy.setHours(FechaHoy.getHours() - 7);
 const fechaUTC = FechaHoy.toUTCString();
 
 document.getElementById("fechaHoy").innerHTML=fechaUTC;
