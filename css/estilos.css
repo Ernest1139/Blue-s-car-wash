@@ -122,6 +122,7 @@ html {
 
     #contenedor-paquetes {
         gap: 1.2rem;
+        margin-top: 1rem;
     }
 
     .paquete-1 {
