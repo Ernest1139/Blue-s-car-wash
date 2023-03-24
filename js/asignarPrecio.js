@@ -11,3 +11,5 @@ if(localStorage.getItem("precioCar")==null){
 } else {
     document.getElementById("precioAPagar").innerHTML="$ $ $"
 }
+
+
