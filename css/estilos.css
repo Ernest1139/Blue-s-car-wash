@@ -319,11 +319,11 @@ a {
     text-align: justify;
 }
 
-#detalles-paquete ul li{
+#detalles-paquete li{
     font-size: 30px;
 }
 
-#titulo-paquete{
-    font-size: 35px;
+#titulo-paquete h1{
+    font-size: 4rem;
     text-align: center;
 }
