@@ -16,14 +16,17 @@
         <h1>Receipt printing</h1>
     </header>
     <div id="seccion-impresion">
-        <h2>Your receipt is printing.</h2>
+        <h2>Your receipt is being printed...</h2>
         <h2>Thanks for your purchase.</h2>
-    
-        <div id="seccion-icono">
-            <a href="/index.html"><ion-icon name="home-outline" id="home" href="/index.html"></ion-icon></a>
-        </div>
+            
     </div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+
+        setTimeout(() => {
+        window.location.replace("/ReciboEN.html");
+        }, 4000);
+    </script>
 </body>
 </html>

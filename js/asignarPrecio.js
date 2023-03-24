@@ -12,4 +12,3 @@ if(localStorage.getItem("precioCar")==null){
     document.getElementById("precioAPagar").innerHTML="$ $ $"
 }
 
-
