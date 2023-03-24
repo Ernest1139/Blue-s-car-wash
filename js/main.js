@@ -32,8 +32,16 @@
 
 
 
-window.addEventListener('DOMContentLoaded', pruebaDetalle)
-window.addEventListener('DOMContentLoaded', pruebaDetalle2)
+// window.addEventListener('DOMContentLoaded', pruebaDetalle)
+// window.addEventListener('DOMContentLoaded', pruebaDetalle2)
+
+//let precio="";
+
+// document.getElementById("precioPaqueteCar").addEventListener("click", obtenerPrecio);
 
 
+// function obtenerPrecio(){
+//     precio = document.getElementById('precioPaqueteCar');
+//     console.log(precio);
+// }
 

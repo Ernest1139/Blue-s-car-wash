@@ -42,18 +42,18 @@
 
         <div class="pago-vehiculos">
             <div class="pago-auto">
-                <a href="/seleccionDePagoES.html">
+                <a href="/seleccionDePagoES.html" onclick="obtenerPrecioCar()" id="botonPagoCar">
                     <img src="/img/coche.png" alt="pago-auto">
-                    <p class="info-pago-auto">Auto - $200</p>
+                    <p class="info-pago-auto" id="precioPaqueteCar">Auto - $200</p>
                 </a>
             </div>
         </div>
     
         <div class="pago-vehiculos">
             <div class="pago-camioneta">
-                <a href="/seleccionDePagoES.html">
+                <a href="/seleccionDePagoES.html" onclick="obtenerPrecioCam()" id="botonPagoCam">
                     <img src="/img/camioneta.png" alt="pago-camioneta">
-                    <p class="info-pago-camioneta">Camioneta - $230</p>
+                    <p class="info-pago-camioneta" id="precioPaqueteCam">Camioneta - $230</p>
                 </a>
             </div>
         </div>
@@ -63,6 +63,7 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/precio.js"></script>
 
 </body>
 </html>
