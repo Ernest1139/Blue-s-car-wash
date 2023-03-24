@@ -18,7 +18,7 @@ function asignarDireccion(){
     } else if(PrecioCarroGuardado=="Car - $200" || PrecioCamionetaGuardado=="Pickup - $230"){
         document.getElementById("flechaRegresar").href="/detallesPaqueteEN3.html";
     } else if(PrecioCarroGuardado=="Car - $400" || PrecioCamionetaGuardado=="Pickup - $450"){
-        document.getElementById("flechaRegresar").href="/detallesPaqueteEN3.html";
+        document.getElementById("flechaRegresar").href="/detallesPaqueteEN4.html";
     } else {
         document.getElementById("flechaRegresar").href="/seleccionDePagoES.html";
     }
