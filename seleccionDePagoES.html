@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="/css/estilos.css">
 </head>
 
-<body id="contenedor-fondo">
+<body>
     <header id="encabezado-seleccionPago">
-        <a href="/detallesPaqueteES.html"><ion-icon class="flecha" name="arrow-back-circle-outline"></ion-icon> </a>
+        <a href="#" id="flechaRegresar" onclick="asignarDireccion()"><ion-icon class="flecha" name="arrow-back-circle-outline"></ion-icon> </a>
         <h1>Selección de pago</h1>
     </header>
 
@@ -22,17 +22,19 @@
 
         <div class="metodos-pago">
             <div class="metodos-pago-info">
-                <a href="/pagarTarjetaES.html">
-                    <ion-icon name="card-outline"></ion-icon>
+                <a href="/pagarTarjetaES.html" style="color: white;">
+                    <img style="margin-top: 2rem;" width="50%" src="/img/tarjeta-credito.png" alt="">
+                    <!-- <ion-icon style="margin-top: -0.5rem;" name="card-outline"></ion-icon> -->
                     <p class="info">Tarjeta Bancaria</p>
                 </a>
             </div>
         </div>
         
         <div class="metodos-pago">
-            <div class="metodos-pago-info">
+            <div style="background-color: #64B5F6;" class="metodos-pago-info">
                 <a href="/pagarEfectivoES.html">
-                    <ion-icon name="wallet-outline"></ion-icon>
+                    <img style="margin-top: 2rem;" width="50%" src="/img/efectivo.png" alt="">
+                    <!-- <ion-icon style="margin-top: -0.5rem;" name="wallet-outline"></ion-icon> -->
                     <p class="info">Efectivo</p>
                 </a>
             </div>
@@ -43,5 +45,6 @@
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="js/asignarFlechaAtras.js"></script>
 
 </html>

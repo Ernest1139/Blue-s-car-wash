@@ -6,16 +6,38 @@ body {
     background-color: #e3f2fd;
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 /* Index */
 #encabezado-index h1 {
     text-align: center;
     margin-top: 4rem;
     font-size: 4rem;
+    font-weight: bold;
 }
 
 #seccion-idiomas h2 {
     text-align: center;
     font-size: 3rem;
+}
+
+@media (max-width: 992px) {
+    #encabezado-index h1 {
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 2.4rem;
+    }
+
+    #seccion-idiomas h2 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
 }
 
 #contenido-idiomas {
@@ -26,14 +48,39 @@ body {
 
 .idiomas {
     text-align: center;
-    margin-top: 5rem;
-    width: 40rem;
+    width: 40%;
 }
+
+.idiomas p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    #contenido-idiomas {
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+    }
+    
+    .idiomas {
+        text-align: center;
+        width: 34%;    
+    }
+    
+    .idiomas p {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+    
+}
+
 
 .idiomas img {
     width: 100%;
     border-radius: .5rem;
 }
+
 
 .idiomas a {
     display: flex;
@@ -53,7 +100,7 @@ body {
 #contenedor-paquetes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 3rem auto 0  auto;
+    margin: 2rem auto 0  auto;
     gap: 2rem;
     padding: 0 4rem;
 }
@@ -69,6 +116,26 @@ body {
     height: 22rem;
     border-radius: 1rem;
     color: #f8f2f2;
+}
+
+@media (max-width: 992px) {
+
+    #contenedor-paquetes {
+        gap: 1.2rem;
+    }
+
+    .paquete-1 {
+        background-color: #64B5F6;
+        height: 11.5rem;
+        border-radius: 1rem;
+    }
+
+    .paquete-2 {
+        background-color: #1E88E5;
+        height: 11.5rem;
+        border-radius: 1rem;
+        color: #f8f2f2;
+    }
 }
 
 .paquete-1:hover {
@@ -92,7 +159,7 @@ body {
 }
 
 #home{
-    font-size: 5rem;
+    font-size: 4.3rem;
     margin-top: .8rem;
     color: black;
 }
@@ -103,7 +170,7 @@ body {
 }
 
 #home:active{
-    transform: scale(0.98);
+    transform: scale(.94);
 }
 
 .paquete-info {
@@ -121,8 +188,35 @@ body {
 }
 
 .paquete-info img {
-    border-radius: .5rem;
+    width: 32%;
 }
+
+@media (max-width: 992px) {
+    .paquete-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .paquete-info p {
+        font-weight: bold;
+        font-size: 2.4rem;
+    }
+
+    #home{
+        font-size: 3.8rem;
+        margin-top: .4rem;
+    }
+
+    .paquete-info img {
+        width: 30%;
+    }
+}
+
+
 
 /* Index */
 #encabezado {
@@ -132,16 +226,17 @@ body {
 
 /* Selección de Pago */
 #encabezado-seleccionPago {
-    font-size: 32px;
     display: flex;
-    gap: 26rem;
+    font-size: 28px;
+    gap: 20rem;
     align-items: center;
     margin-left: 3rem;
 }
 
 #encabezado-seleccionPago a {
     color: black;
-} 
+}
+
 
 .contenedor-seleccion-pago {
     display: grid;
@@ -149,6 +244,7 @@ body {
     gap: 4rem;
     margin: 3rem;
 }
+
 
 .metodos-pago {
     height: 30rem;
@@ -178,6 +274,7 @@ body {
     align-items: center;
     text-decoration: none;
     color: black;
+    width: 100%;
 }
 
 .metodos-pago-info ion-icon {
@@ -196,7 +293,7 @@ body {
 }
 
 .flecha {
-    font-size: 64px;
+    font-size: 80px;
 }
 
 .flecha:hover {
@@ -208,11 +305,53 @@ body {
     transform: scale(0.9);
 }
 
+@media (max-width: 992px) {
+    #encabezado-seleccionPago {
+        font-size: 28px;
+        gap: 7.5rem;
+    }
+
+    .contenedor-seleccion-pago {
+        margin: 0 3rem;
+    }
+
+    .metodos-pago {
+        display: flex;
+        flex-direction: column;
+        max-height: 18rem;
+        margin-top: 0.8rem;
+    }
+
+    .info {
+        font-weight: bold;
+        font-size: 2.5rem;
+        margin-top: 0.1rem;
+        text-align: center;
+    }
+
+    
+    .metodos-pago-info {
+        background-color: #42A5F5;
+        font-size: 200px;
+        border: solid 3.5px;
+        border-radius: 1rem;
+        height: 100%;
+        
+    }
+    
+}
+
 /*Páginas de pagos*/
+
+#encabezado-pagoTarjeta {
+    display: flex;
+    gap: 3.5rem;
+}
 
 #contenedor-pagar-tarjeta h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-top: 1rem;
 }
 
 .dinero-a-pagar h2 {
@@ -221,7 +360,6 @@ body {
 
 /* Impresión de recibo */
 #contenedor-impresion {
-    background-color: #BBDEFB;
     margin: 0;
     width: 100%;
     height: 100%;
@@ -229,19 +367,20 @@ body {
 
 #encabezado-impresion h1 {
     text-align: center;
-    margin-top: 4rem;
-    font-size: 3rem;
+    margin-top: 3rem;
+    font-size: 4rem;
 }
 
 #seccion-impresion h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 
 #contenedor-pagar-efectivo h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-top: 1rem;
 }
 
 .info-pago-efectivo {
@@ -251,6 +390,7 @@ body {
 }
 
 #seccion-icono {
+    margin-top: 4rem;
     text-align: center;
 }
 
@@ -313,17 +453,159 @@ a {
     color: black;
 }
 
-#detalles-paquete{
+/* #detalles-paquete{
     width: 35%;
     margin: 0 auto;
     text-align: justify;
-}
+} */
 
-#detalles-paquete li{
+/* #detalles-paquete ul li{
     font-size: 30px;
-}
+} */
 
 #titulo-paquete h1{
     font-size: 4rem;
     text-align: center;
+}
+
+@media (max-width: 992px) {
+    #titulo-paquete {
+        margin-top: -8.5rem;
+    }
+
+    #detalles-paquete {
+        margin-left: 5rem;
+        margin-top: -1rem;
+    }
+
+    #detalles-paquete ul li{
+        font-size: 20px;
+    }
+}
+
+/*Pago por vehículos*/
+.contenedor-pago-vehiculos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    margin: 2.5rem 3rem ;
+}
+
+.pago-vehiculos {
+    height: 20rem;
+    margin-top: 2rem;
+}
+
+.pago-auto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #42A5F5;
+    font-size: 256px;
+    border: solid 3.5px;
+    border-radius: 1rem;
+    height: 100%;
+    
+}
+
+.pago-auto a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.pago-auto img {
+    width: 49%;
+}
+
+
+
+.pago-camioneta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #90CAF9;
+    font-size: 256px;
+    border: solid 3.5px;
+    border-radius: 1rem;
+    height: 100%;
+}
+
+.pago-camioneta a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.pago-camioneta img {
+    width: 40%;
+}
+
+.pago-vehiculos:hover {
+    cursor: pointer;
+    background-color: #90CAF9;
+    box-shadow: 0px 0px 23px 0px rgba(214,214,214,1);
+    border-radius: 1rem;
+}
+
+.info-pago-auto {
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+.info-pago-camioneta {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.pago-camioneta:hover {
+    background-color: #64B5F6;
+    transform: scale(0.98);
+}
+
+.pago-auto:hover {
+    background-color: #90CAF9;
+    transform: scale(0.98);
+}
+
+@media (max-width: 992px) {
+    .pago-vehiculos {
+        margin-top: -.5rem;
+        max-height: 12rem;
+    }
+
+    .pago-auto img{
+        width: 35%;
+    }
+
+    .pago-auto p {
+        margin-top: -1.2rem;
+    }
+
+    .pago-camioneta a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+    .pago-camioneta a img {
+        width: 30%;
+        margin-top: 1rem;
+    } 
+
+    .pago-camioneta p {
+        margin-top: 0rem;
+    }
+
+    
+
 }

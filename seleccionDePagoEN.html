@@ -11,27 +11,27 @@
     <link rel="stylesheet" href="/css/estilos.css">
 </head>
 
-<body id="contenedor-fondo">
+<body>
     <header id="encabezado-seleccionPago">
-        <a href="/detallesPaqueteEN.html"><ion-icon class="flecha" name="arrow-back-circle-outline"></ion-icon> </a>
+        <a href="#" id="flechaRegresar" onclick="asignarDireccion()"><ion-icon class="flecha" name="arrow-back-circle-outline"></ion-icon> </a>
         <h1>Payment Selection</h1>
     </header>
 
     <div class="contenedor-seleccion-pago">
 
         <div class="metodos-pago">
-            <div class="metodos-pago-info">
-                <a href="/pagarTarjetaEN.html">
-                    <ion-icon name="card-outline"></ion-icon>
+            <div  class="metodos-pago-info">
+                <a href="/pagarTarjetaEN.html" style="color: white;">
+                    <img style="margin-top: 2rem;" width="50%" src="/img/tarjeta-credito.png" alt="">
                     <p class="info">Bank Card</p>
                 </a>
             </div>
         </div>
         
         <div class="metodos-pago">
-            <div class="metodos-pago-info">
+            <div style="background-color: #64B5F6;" class="metodos-pago-info">
                 <a href="/pagarEfectivoEN.html">
-                    <ion-icon name="wallet-outline"></ion-icon>
+                    <img style="margin-top: 2rem;" width="50%" src="/img/efectivo.png" alt="">
                     <p class="info">Cash</p>
                 </a>
             </div>
@@ -42,5 +42,6 @@
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="js/asignarFlechaAtras.js"></script>
 
 </html>
