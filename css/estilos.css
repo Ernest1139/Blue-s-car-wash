@@ -345,12 +345,13 @@ html {
 
 #encabezado-pagoTarjeta {
     display: flex;
-    gap: 13.2rem;
+    gap: 3.5rem;
 }
 
 #contenedor-pagar-tarjeta h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-top: 1rem;
 }
 
 .dinero-a-pagar h2 {
@@ -367,19 +368,20 @@ html {
 
 #encabezado-impresion h1 {
     text-align: center;
-    margin-top: 4rem;
-    font-size: 3rem;
+    margin-top: 3rem;
+    font-size: 4rem;
 }
 
 #seccion-impresion h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 
 #contenedor-pagar-efectivo h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-top: 1rem;
 }
 
 .info-pago-efectivo {
@@ -389,6 +391,7 @@ html {
 }
 
 #seccion-icono {
+    margin-top: 4rem;
     text-align: center;
 }
 

@@ -32,8 +32,8 @@
 
 
 
-// window.addEventListener('DOMContentLoaded', pruebaDetalle)
-// window.addEventListener('DOMContentLoaded', pruebaDetalle2)
+window.addEventListener('DOMContentLoaded', pruebaDetalle)
+window.addEventListener('DOMContentLoaded', pruebaDetalle2)
 
 
 
